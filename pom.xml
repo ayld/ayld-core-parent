@@ -8,6 +8,31 @@
 	<name>Core Parent</name>
 	
 	<dependencies>
+		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-persistance-hibernate-impl</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-service-spring-impl</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-web</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-domain-hibernate-impl</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.ayld.core</groupId>
+			<artifactId>core-dto-impl</artifactId>
+			<version>0.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
